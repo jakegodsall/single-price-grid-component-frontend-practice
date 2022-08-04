@@ -44,13 +44,15 @@ Users should be able to:
 
 ### What I learned
 
-
+- That by using `height:100vh` property for the `body`, there is a chance of cutting off content when loaded on a mobile device. 
+- That vertical centring is not really necessary for mobile development, and hence should be employed for desktop inside a media query (when using mobile-first workflow).
+- Styling `li` elements with CSS.
+- How adding a `box-shadow` can be used to add a three-dimensional effect of an object even if it is the same colour as its background.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
+- To continue using the skills I have learned thus far until they become completely intuitive.
+- To be more cognisant of the design principles employed at the stage prior to the challenge by the challenge author.
 
 ## Author
 
