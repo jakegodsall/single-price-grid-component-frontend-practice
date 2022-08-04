@@ -1,0 +1,116 @@
+//
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+
+    .container {
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px 0 hsl(203, 46%, 80%);
+        overflow: hidden;
+        width: 340px;
+
+        .header-container {
+            padding: 30px;
+
+            h1 {
+                font-size: 1.5em;
+                color: hsl(179, 62%, 43%);
+            }
+
+            h2 {
+                font-size: 1.1em;
+                color: hsl(71, 73%, 54%);
+            }
+
+            p {
+                font-size: .9em;
+                color: hsl(218, 22%, 67%);
+                line-height: 1.8;
+            }
+        }
+
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            color: hsl(204, 43%, 93%);
+
+            .subscribe {
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                background-color: hsl(179, 62%, 43%);
+                padding: 30px;
+
+                .price {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+                    h3 {
+                        font-size: 2em;
+                        margin: 0;
+                    }
+
+                    p {
+                        font-size: 1.1em;
+                        color: hsl(179, 60%, 68%);
+                        margin: 0;
+                        margin-left: 15px;
+                    }
+                }
+
+                p {
+                    margin-top: 5px;
+                    margin-bottom: 40px;
+                }
+
+                .sign-up {
+                    width: 100%;
+                    padding: 18px 0;
+                    background-color: hsl(71, 73%, 54%);
+                    border: none;
+                    border-radius: 5px;
+                    color: #fff;
+                    font-size: 1em;
+                    font-weight: 700;
+                    box-shadow: 0px 5px 10px 0 hsl(179, 85%, 33%);
+                    cursor: pointer;
+                    transition: transform .02s ease-in, color 0.2s ease-in;
+                }
+
+                .sign-up:hover {
+                    transform: translateY(2px);
+                    background-color: hsl(71, 85%, 74%);
+                    color: hsl(179, 85%, 33%);
+                }
+            }
+
+            .justification {
+                flex: 1;
+                background-color: hsl(179, 44%, 59%);
+                padding: 30px;
+                list-style-type: none;
+                color: hsl(204, 43%, 93%);
+
+                ul {
+                    list-style-type: none;
+                    line-height: 1.5;
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .attribution {
+        text-align: center;
+        margin-top: 30px;
+    }
+}

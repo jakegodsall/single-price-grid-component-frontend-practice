@@ -1,1 +1,98 @@
-/*# sourceMappingURL=stylesheet.css.map */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  background-color: hsl(204deg, 43%, 93%);
+}
+body .container {
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 0 hsl(203deg, 46%, 80%);
+  overflow: hidden;
+  width: 340px;
+}
+body .container .header-container {
+  padding: 30px;
+}
+body .container .header-container h1 {
+  font-size: 1.5em;
+  color: hsl(179deg, 62%, 43%);
+}
+body .container .header-container h2 {
+  font-size: 1.1em;
+  color: hsl(71deg, 73%, 54%);
+}
+body .container .header-container p {
+  font-size: 0.9em;
+  color: hsl(218deg, 22%, 67%);
+  line-height: 1.8;
+}
+body .container .content-container {
+  display: flex;
+  flex-direction: column;
+  color: hsl(204deg, 43%, 93%);
+}
+body .container .content-container .subscribe {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: hsl(179deg, 62%, 43%);
+  padding: 30px;
+}
+body .container .content-container .subscribe .price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body .container .content-container .subscribe .price h3 {
+  font-size: 2em;
+  margin: 0;
+}
+body .container .content-container .subscribe .price p {
+  font-size: 1.1em;
+  color: hsl(179deg, 60%, 68%);
+  margin: 0;
+  margin-left: 15px;
+}
+body .container .content-container .subscribe p {
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+body .container .content-container .subscribe .sign-up {
+  width: 100%;
+  padding: 18px 0;
+  background-color: hsl(71deg, 73%, 54%);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  box-shadow: 0px 5px 10px 0 hsl(179deg, 85%, 33%);
+  cursor: pointer;
+  transition: transform 0.02s ease-in, color 0.2s ease-in;
+}
+body .container .content-container .subscribe .sign-up:hover {
+  transform: translateY(2px);
+  background-color: hsl(71deg, 85%, 74%);
+  color: hsl(179deg, 85%, 33%);
+}
+body .container .content-container .justification {
+  flex: 1;
+  background-color: hsl(179deg, 44%, 59%);
+  padding: 30px;
+  list-style-type: none;
+  color: hsl(204deg, 43%, 93%);
+}
+body .container .content-container .justification ul {
+  list-style-type: none;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+body .attribution {
+  text-align: center;
+  margin-top: 30px;
+}/*# sourceMappingURL=stylesheet.css.map */
