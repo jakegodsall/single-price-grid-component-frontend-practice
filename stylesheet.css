@@ -92,6 +92,11 @@ body .container .content-container .justification ul {
   margin: 0;
 }
 @media screen and (min-width: 1000px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   body .container {
     display: flex;
     flex-direction: column;
