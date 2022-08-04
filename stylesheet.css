@@ -92,6 +92,29 @@ body .container .content-container .justification ul {
   padding: 0;
   margin: 0;
 }
+@media screen and (min-width: 1000px) {
+  body .container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+  }
+  body .container .header-container {
+    flex: 1;
+  }
+  body .container .content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+  body .container .content-container .subscribe {
+    flex: 1;
+    padding: 30px 50px 30px 50px;
+  }
+  body .container .content-container .justification {
+    flex: 1;
+    padding: 30px 50px 30px 50px;
+  }
+}
 body .attribution {
   text-align: center;
   margin-top: 30px;
