@@ -108,7 +108,7 @@ body {
         }
     }
 
-    @media screen and (min-width: 1000px) or (orientation: landscape) {
+    @media screen and (min-width: 1000px) {
         height: 100vh;
         display: flex;
         flex-direction: column;
