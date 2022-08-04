@@ -1,5 +1,4 @@
 body {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,6 +93,7 @@ body .container .content-container .justification ul {
 }
 @media screen and (min-width: 1000px) {
   body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
